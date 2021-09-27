@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converso de Real para outras moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">Conversor de Moedas</h1>
+        <p class="page-subtitle">Descubra os valores convertidos em outras moedas</p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+
+        <label for= "moeda">Insira o valor em Real R$</label><br>
+        <input type="number" id="valor" size="2"/><br>
+        <button type="submit" onclick="Converter()" id="Botao_01">Converte em Dolar</button>
+        <h2 id="valorConvertido_1"></h2>
+        <button type="submit" onclick="Converter_2()" id="Botao_02">Converte em Euro</button>
+        <h2 id="valorConvertido_2"></h2>
+        <button type="submit" onclick="Converter_3()" id="Botao_03">Converte em Libra</button>
+        <h2 id="valorConvertido_3"></h2>
+    </div>
+    <a href="https:github.com/EduardoRFX" target="_blanck"><img src="img/github-logo.png" alt="logo do github" class="github-logo"></a>
+
+        
+    <script src="index.js"></script>
+</body>
+</html>
